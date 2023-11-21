@@ -15,12 +15,36 @@ console.log(sentence.includes('bob')); //false
 console.log(sentence.lastIndexOf('Becoming'));
 console.log(sentence.lastIndexOf('the'));
 
-//indexof
+//indexof display the words index
 console.log(sentence.indexOf('Becoming'));
+console.log(sentence.indexOf('the'));
 
+//replace()  replaces the word but a comma is used to actually replace the word
+console.log(sentence.replace('Becoming', 'Already'));
 
+//repeat() repeat the string but the number used is howi= much it is going to repeat
+console.log(sentence.repeat(4));
 
+//startWith() checks the string if it begins with a certain will return a boolean
+console.log(sentence.startsWith("B"));
 
+//subString() display the string from a certain index (0,4) using a comma will make it start and end index
+console.log(sentence.substring(0));
+
+//trim() removes the leading and ending space unneccessary spaces 
+console.log(sentence.trim());
+
+//trimEnd()  removes only the ending spaces
+console.log(sentence.trimEnd());
+
+//trimStart() removes only the leading space
+console.log(sentence.trimStart());
+
+//slice()  to select a portion or the string by getting their index values
+console.log(sentence.slice(0, 9));
+
+//splice()converts a string to an array 
+console.log(sentence.split());
 
 
 
